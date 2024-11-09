@@ -37,6 +37,52 @@ function CoverPage(){
 
         </div>
 
+        <div className="toDo">
+            <h1>What You Can Do...</h1>
+            <div className="con">
+
+                <div className="con1">
+
+                <div className="text">
+
+                    <div className="text a">
+                        Report Issue
+                    </div>
+
+                    <div className="text b">
+                        bal
+                    </div>
+
+                    <div className="text c">
+                        bal bal
+                    </div>
+
+                </div>
+                </div>
+
+                <div className="con1">
+
+                    <div className="text">
+
+                        <div className="text a">
+                            Report Issue
+                        </div>
+
+                        <div className="text b">
+                            bal
+                        </div>
+
+                        <div className="text c">
+                            bal bal
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
    </div>
 
     )

@@ -3,17 +3,26 @@
     width: 100%;
     height:200vh;
     max-height:100%;
+    /* max-width:100%; */
     background-color: var(--lightblue);
     font-family: Abhaya Libre ExtraBold;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding-left: 20px; */
+    
+    
+   
 
     .header{
+        color: white;
         display: flex;
         flex-direction: row;
         align-items: center;
         background-color: black;
         justify-content: space-between;
         padding-right: 30px;
+        /* width: 100%; */
 
      
 
@@ -23,7 +32,6 @@
             align-items: center;
 
             img{
-                color: var(--lightblue);;
                 height: 50px;
                 padding-right: 10px;
             }
@@ -36,10 +44,7 @@
             flex-direction: row;
             
             gap: 15px;
-            /* height: fit-content; */
-            /* border-radius: 10px; */
-            /* padding: 6px 20px; */
-            /* padding-right: 20px; */
+        
             h3{
                 cursor: pointer;
                 gap: 20px;
@@ -54,7 +59,6 @@
         flex-direction: column;
         align-items: center;
         font-size: 20px;
-        /* background-color: var(--blue); */
 
         h2{
             font-size: 50px;
@@ -92,6 +96,65 @@
         }
 
 
+
+    }
+
+    .toDo{
+        padding-top: 40px;
+        color: #00509d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1{   
+            font-size: 50px;
+        }
+
+        .con{
+            color: black;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 150px;
+
+
+            .con1{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                width: 500px;
+                height: 300px;
+                border-radius: 10px;
+                background-color: white;
+    
+
+                .text{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+    
+                    &.a{
+                        font-size: 30px;
+                        padding: 20px 0px 0px 30px;
+    
+                    }
+    
+                    &.b{
+                        font-size: 15px;
+                        padding: 10px 0px 0px 30px;
+                    }
+    
+                    &.c{
+                        font-size: 20px;
+                        padding: 35px 0px 0px 30px;
+                    }
+    
+    
+                }
+            }
+
+
+        }
 
     }
 
