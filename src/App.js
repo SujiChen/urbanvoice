@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import CoverPage from './CoverPage/CoverPage';
-import Login from './login/login';
+import LoginButtonComponent from './login/LoginButtonComponent';
 import AuthProvider from './login/authprovider';
 
 
@@ -26,10 +26,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Login />
       {/* Other components can access the user state via useAuth */}
       <CoverPage/>
-      <Login/>
     </div>
     </AuthProvider>
 
