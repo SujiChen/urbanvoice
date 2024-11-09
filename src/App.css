@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+.root{
+  --lightblue: #8ecae6;
+  --blue: #219EBC;
+  --darkblue: #023047;
+  --yellow: #FFB703;
+  --orange: #FB8500;
+  
+}
 
 .App-logo {
   height: 40vmin;
