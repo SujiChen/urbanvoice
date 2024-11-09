@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect, useContext } from "react";
 import './CoverPage.css';
 import '../App.css';
 import logo from '../img/logo.svg';
+import LoginButtonComponent from '../login/LoginButtonComponent.jsx';
+import { auth, provider } from '../login/firebase.js';
+import { onAuthStateChanged } from 'firebase/auth';
+import { AuthContext } from '../login/authprovider'; 
 
 
 
 function CoverPage(){
+    const { currentUser } = useContext(AuthContext);
     return(
    <div className="coverpage">
         <div className="header">
@@ -17,7 +22,7 @@ function CoverPage(){
           
             <div className="right">
                 <h3>about</h3>
-                <h3>login</h3>
+                <LoginButtonComponent />
                 <h3>contact</h3>
             </div>
         </div>
@@ -42,5 +47,7 @@ function CoverPage(){
     )
 
 }
+
+
 
 export default CoverPage;

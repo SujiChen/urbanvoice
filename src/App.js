@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import CoverPage from './CoverPage/CoverPage';
+import LoginButtonComponent from './login/LoginButtonComponent';
+import AuthProvider from './login/authprovider';
+
+
+
 
 function App() {
   return (
 
+    <AuthProvider>
     <div className="App">
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -20,9 +26,10 @@ function App() {
           Learn React
         </a>
       </header> */}
-
+      {/* Other components can access the user state via useAuth */}
       <CoverPage/>
     </div>
+    </AuthProvider>
 
   );
 }
