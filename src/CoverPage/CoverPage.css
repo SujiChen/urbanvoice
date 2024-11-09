@@ -4,8 +4,8 @@
     height:200vh;
     max-height:100%;
     /* max-width:100%; */
-    background-color: var(--lightblue);
-    font-family: Abhaya Libre ExtraBold;
+    /* background-color: var(--lightblue); */
+    font-family: 'Abhaya Libre ExtraBold', serif;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -49,20 +49,30 @@
                 cursor: pointer;
                 gap: 20px;
             }
+
+            h3:hover {
+                color: #38bdf8;
+              }
         }
     }
 
     .heroSection{
         padding-top: 50px;
-        color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 20px;
+        color: #0f172a;
+
 
         h2{
+            color: #0c4a6e;
             font-size: 50px;
+        }
+
+        h3{
+            font-size: 20px;
             margin: 20px;
+            color: #0369a1;
         }
 
         .buttons{
@@ -101,12 +111,13 @@
 
     .toDo{
         padding-top: 40px;
-        color: #00509d;
+        /* background-color: #ffffff; */
         display: flex;
         flex-direction: column;
         align-items: center;
 
         h1{   
+            color: #0c4a6e;
             font-size: 50px;
         }
 
@@ -119,13 +130,15 @@
 
 
             .con1{
+                background-color: #f8fafc;
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-start;
                 width: 500px;
-                height: 300px;
-                border-radius: 10px;
+                height: 200px;
                 background-color: white;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 0.5rem;
     
 
                 .text{
@@ -136,17 +149,22 @@
                     &.a{
                         font-size: 30px;
                         padding: 20px 0px 0px 30px;
+                        color: #0369a1;
     
                     }
     
                     &.b{
+                        align-items: flex-start;
                         font-size: 15px;
                         padding: 10px 0px 0px 30px;
+                        
                     }
     
                     &.c{
                         font-size: 20px;
                         padding: 35px 0px 0px 30px;
+                        color: #0369a1;
+                        font-weight: bold;
                     }
     
     
@@ -156,6 +174,15 @@
 
         }
 
+    }
+
+
+    .footer {
+        background-color: #0c4a6e;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: auto;
     }
 
 

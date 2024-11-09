@@ -24,7 +24,7 @@ function CoverPage(){
 
         <div className="heroSection">
             <h2>Make Your City Better </h2>
-            Voice your opinion and concerns to make your city a better place for everyone
+            <h3>Voice your opinion and concerns to make your city a better place for everyone</h3>
 
             <div className="buttons">
                 <div className="buttons left">
@@ -46,15 +46,15 @@ function CoverPage(){
                 <div className="text">
 
                     <div className="text a">
-                        Report Issue
+                    Report Issue
                     </div>
 
                     <div className="text b">
-                        bal
+                    Easily report problems in your neighborhood, from potholes to broken streetlights.
                     </div>
 
                     <div className="text c">
-                        bal bal
+                    Help improve your community by speaking up!
                     </div>
 
                 </div>
@@ -65,15 +65,15 @@ function CoverPage(){
                     <div className="text">
 
                         <div className="text a">
-                            Report Issue
+                        Track Progress
                         </div>
 
                         <div className="text b">
-                            bal
+                        Follow the status of reported issues and see how your city is addressing them.
                         </div>
 
                         <div className="text c">
-                            bal bal
+                        Stay informed about the changes happening around you!
                         </div>
 
                     </div>
@@ -82,6 +82,10 @@ function CoverPage(){
 
             </div>
         </div>
+
+        <footer className="footer">
+        <p>&copy; 2024 UrbanVoice. All rights reserved.</p>
+      </footer>
 
    </div>
 
