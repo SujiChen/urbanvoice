@@ -134,8 +134,8 @@
             gap: 150px;
             margin-bottom: 60px;
 
-
             .con1{
+                cursor: pointer;
                 background-color: #f8fafc;
                 display: flex;
                 flex-direction: row;
@@ -280,6 +280,7 @@
                 height: 30px;
                 width: 150px;
                 border-radius: 8px;
+                cursor: pointer;
 
                 
             }
