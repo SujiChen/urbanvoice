@@ -5,6 +5,7 @@ import AuthProvider from './login/authprovider';
 import Profile from "./Profile/Profile";
 import AboutUs from "./AboutUs/AboutUs";
 import LearnMore from "./LearnMore/LearnMore";
+import CommunityForum from "./CommunityForum/CommunityForum";
 import { BrowserRouter as Router, Routes, Route }from 'react-router-dom';
 
 
@@ -42,6 +43,7 @@ function App() {
 
           <Route path="/aboutus" element={<AboutUs />}  />
           <Route path="/learnmore" element={<LearnMore />}  />
+          <Route path="/communityforum" element={<CommunityForum />}  />
 
           
           {/* Optional: Handle 404/Not Found */}

@@ -153,6 +153,9 @@
             height: 50px;
             width: 150px;
             border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Abhaya Libre ExtraBold', serif;
+            font-size: 14px;
         }
 
         padding-bottom: 20px;

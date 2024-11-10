@@ -1,4 +1,4 @@
-.about-page {
+.communityforum-page{
     width: 100%;
     height:100vh;
     max-height:100%;
@@ -50,62 +50,23 @@
         }
     }
 
-    .main{
+
+
+    .main-content{
         display: flex;
         flex-direction: column;
-        /* align-items: flex-start; */
+        align-items: flex-start;
+        padding-left: 20px;
 
-        .title {
+        .main-title {
             font-size: 2.5rem;
             font-weight: bold;
-            color: #052538;
-            margin-top: 15px;
-            /* margin-bottom: 2rem; */
+            color: #0c4a6e;
+            margin-bottom: 2rem;
         }
 
-        .content{
-            display: flex;
-            flex-direction: column;
-            /* align-items: flex-start; */
-
-            .text{
-                display: flex;
-                flex-direction: column;
-                /* align-items: flex-start; */
-            }
-
-            h2{
-                color: #0C4A6E;
-                font-size: 30px;
-                margin: 0px;
-
-
-            }
-
-            h4{
-                display: flex;
-                flex-direction: column;
-                font-weight: 100;
-                font-size: 17px;
-                margin-top: 10px;
-                margin-bottom: 30px;
-                margin-left: 40px;
-                margin-right: 40px;
-                /* align-items: flex-start; */
-            }
-
-            .steps{
-                display: flex;
-                flex-direction: column;
-                flex-direction: column;
-                align-items: flex-start;
-                padding-left: 500px;
-                margin-top: 10px;
-                margin-bottom: 30px;
-                /* align-items: flex-start; */
-            }
-
-
+        .search-bar {
+            margin-bottom: 2rem;
         }
 
         button{
@@ -114,25 +75,21 @@
             background-color: rgba(0, 0, 0, 0.907);
             color: #f8fafc;
             height: 50px;
-            width: 150px;
+            width: 250px;
             border-radius: 8px;
             cursor: pointer;
         }
-
-        padding-bottom: 20px;
-
     }
-    
-    
+
+
     .footer {
         background-color: #0c4a6e;
         color: white;
         text-align: center;
-        padding: 8px;
+        padding: 1rem;
         margin-top: auto;
     }
-    
-  
-    
+
+
+
 }
-  

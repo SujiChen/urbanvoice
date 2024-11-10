@@ -168,7 +168,11 @@ function CoverPage(){
                     
 
                 </div>
+                < Link to="/communityforum" style={{ textDecoration: "none" }}>
                 <button>Enter Forum</button>
+                </Link>
+
+                {/* <button>Enter Forum</button> */}
             </div>
 
         </div>
