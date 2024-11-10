@@ -30,7 +30,6 @@ function App() {
         </a>
       </header> */}
       {/* Other components can access the user state via useAuth */}
-      {/* <CoverPage/> */}
 
       <Routes>
          {/* Route for the root path */}
