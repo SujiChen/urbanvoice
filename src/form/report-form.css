@@ -16,6 +16,7 @@
   .report-form .form-control .MuiFormLabel-root {
     font-weight: 600;
     color: #333;
+    font-family: 'Abhaya Libre ExtraBold', serif;
   }
   
   .report-form .form-control .MuiTextField-root,
@@ -36,6 +37,7 @@
   .report-form .form-control .MuiFormControlLabel-root {
     display: inline-block;
     margin-right: 16px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
   }
   
   .report-form .form-control .MuiRadio-root {
@@ -57,6 +59,7 @@
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
+    font-family: 'Abhaya Libre ExtraBold', serif;
   }
   
   .report-form .submit-button:hover {
@@ -69,6 +72,7 @@
   
   .report-form .MuiFormControl-root {
     display: block;
+    font-family: 'Abhaya Libre ExtraBold', serif;
   }
   
   .report-form .MuiFormControl-root input {
@@ -86,6 +90,7 @@
   
   .report-form .MuiFormControl-root label {
     font-size: 16px;
+    font-family: 'Abhaya Libre ExtraBold', serif;
   }
   
   .report-form .form-control .MuiFormLabel-root {
@@ -104,6 +109,7 @@
     .report-form .submit-button {
       font-size: 14px;
       padding: 10px;
+      font-family: 'Abhaya Libre ExtraBold', serif;
     }
   }
   
