@@ -1,0 +1,109 @@
+/* report-form.css */
+
+.report-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .report-form .form-control {
+    margin-bottom: 16px;
+  }
+  
+  .report-form .form-control .MuiFormLabel-root {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .report-form .form-control .MuiTextField-root,
+  .report-form .form-control .MuiInputBase-root,
+  .report-form .form-control .MuiTextareaAutosize-root {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+  }
+  
+  .report-form .form-control .MuiInputBase-root:hover,
+  .report-form .form-control .MuiTextareaAutosize-root:hover {
+    border-color: #1976d2;
+  }
+  
+  .report-form .form-control .MuiFormControlLabel-root {
+    display: inline-block;
+    margin-right: 16px;
+  }
+  
+  .report-form .form-control .MuiRadio-root {
+    color: #1976d2;
+  }
+  
+  .report-form .form-control .MuiRadio-root:hover {
+    background-color: transparent;
+  }
+  
+  .report-form .submit-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .report-form .submit-button:hover {
+    background-color: #1565c0;
+  }
+  
+  .report-form .submit-button:focus {
+    outline: none;
+  }
+  
+  .report-form .MuiFormControl-root {
+    display: block;
+  }
+  
+  .report-form .MuiFormControl-root input {
+    background-color: white;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .report-form .MuiFormControl-root textarea {
+    background-color: white;
+    color: #333;
+    font-size: 14px;
+    resize: vertical;
+  }
+  
+  .report-form .MuiFormControl-root label {
+    font-size: 16px;
+  }
+  
+  .report-form .form-control .MuiFormLabel-root {
+    margin-bottom: 8px;
+  }
+  
+  .report-form .form-control .MuiRadio-root {
+    margin-right: 8px;
+  }
+  
+  @media (max-width: 600px) {
+    .report-form {
+      padding: 15px;
+    }
+  
+    .report-form .submit-button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

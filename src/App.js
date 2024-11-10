@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import CoverPage from './CoverPage/CoverPage';
-import AuthProvider from './login/authprovider';
+import react from 'react'
+import "./App.css";
+import CoverPage from "./CoverPage/CoverPage";
+import AuthProvider from "./login/authprovider";
 import Profile from "./Profile/Profile";
 import AboutUs from "./AboutUs/AboutUs";
 import LearnMore from "./LearnMore/LearnMore";
 import CommunityForum from "./CommunityForum/CommunityForum";
 import { BrowserRouter as Router, Routes, Route }from 'react-router-dom';
+import { Link} from 'react-router-dom';
+import Form from "./form/report-form";
 
 
 
@@ -16,8 +18,8 @@ function App() {
   return (
     <Router>
       <AuthProvider>
-    <div className="App">
-      {/* <header className="App-header">
+        <div className="App">
+          {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -43,7 +45,11 @@ function App() {
 
           <Route path="/aboutus" element={<AboutUs />}  />
           <Route path="/learnmore" element={<LearnMore />}  />
+
           <Route path="/communityforum" element={<CommunityForum />}  />
+
+          <Route path="form/report-form" element={<Form />}  />
+
 
           
           {/* Optional: Handle 404/Not Found */}
@@ -51,8 +57,8 @@ function App() {
       </Routes>
     </div>
     </AuthProvider>
-    </Router>
 
+    </Router>
   );
 }
 

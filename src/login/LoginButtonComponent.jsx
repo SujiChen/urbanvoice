@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 //import '../CoverPage/CoverPage.css' 
 import '../App.css';
 import './login.css';
-import logo from '../img/logo.svg';
+import logo from '../img/Profile.svg';
 import { auth, provider } from '../login/firebase.js'; // Adjust the path as necessary
 import { signInWithPopup, onAuthStateChanged } from "firebase/auth";
 import { signOut } from "firebase/auth";
@@ -49,7 +49,7 @@ const LoginButtonComponent = () => {
     <div>
         {user ? (
             <div>
-            <img src={user.photoURL || logo} alt="Profile" style={{ borderRadius: "50%", width: "50px", height: "50px", cursor: "pointer" }} onClick={toggleDropdown} // Toggle dropdown on click 
+            <img src={user.photoURL || logo} alt="Profile" style={{ borderRadius: "50%", width: "35px", height: "35px", cursor: "pointer" }} onClick={toggleDropdown} onError={(e) => e.target.src = logo} // Toggle dropdown on click 
             />
             {/* Dropdown Menu */}
             {dropdownVisible && (

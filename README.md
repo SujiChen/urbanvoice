@@ -1,70 +1,71 @@
-# Getting Started with Create React Ap
+<div text-align:center;background-color:white;width:100%;">
+    <img src="src/img/logo.svg" alt="logo" width="100%" height="350" style="border-radius=50%;">
+ </div> 
+<p text-align: center;>
+    
+  ![Static Badge](https://img.shields.io/badge/Hackathon-HackRPI-red?style=for-the-badge&labelColor=brown)
+  ![Static Badge](https://img.shields.io/badge/UrbanUpgrade-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Cities-yellow?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+</p>
 
-In the project directory, you can run:
+  # UrbanVoice
+  UrbanVoice is a platform dedicated to empowering citizen to actively partcipate in shaping their cities. We believe that every resident has a valuable insights and ideas that can contribute to making our cities more livable, sustainable, and inclusive.
 
-### `npm start`
+  # Our Mission
+  Our mission is to bridge the gap between city residents and local authorities, creating a collaborative ecosytstem where communitiy voices are heard, and positive changes are implemented efficiently. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  >[!NOTE]
+>The website is not fully developed yet
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Table of content
 
-### `npm run build`
+<details>
+    <summary><h2>Click to expand</h2></summary>
+    <ol>
+   <li> <a href="#Features">Features</a></li>
+   <li><a href="#MVP">MVP</a></li>
+   <li><a href="#Tech Stack">Tech Stack</a></li>
+   <li><a href="#Contributing">Contributing</a></li>
+   <li> <a href="#License">License</a> </li>
+    </ol>
+    
+    
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Features
+- Report Issues
+- Suggest Improvements
+- Track Progress
+- Community enagagement
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#  MVP
+The minimum viable product has a basic look of the website, focusing mainly on the looks of the website and the little backend(plans to implement in it outside of the hackathon)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Tech Stack 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python&logoSize=auto" alt="python">
+<img src="https://img.shields.io/badge/javascript-purple?style=for-the-badge&logo=javascript&logoSize=auto" alt="javascript">
+<img src="https://img.shields.io/badge/HTML-blue?style=for-the-badge&logo=html5&logoSize=auto" alt="html"> 
+<img src="https://img.shields.io/badge/CSS-pink?style=for-the-badge&logo=css3&logoColor=%231572B6&logoSize=auto" alt="css">
+<img src="https://img.shields.io/badge/React-gray?style=for-the-badge&logo=react&logoSize=auto" alt="react">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Contributing 
 
-### Code Splitting
+Want to contribute? Visit the contributing.md file for more details. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# License 
 
-### Analyzing the Bundle Size
+This project is MIT-licensed. Click [here](#license.md) to learn more. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
