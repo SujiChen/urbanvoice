@@ -22,8 +22,8 @@ function CoverPage(){
           
             <div className="right">
                 <h3>about</h3>
-                <LoginButtonComponent />
                 <h3>contact</h3>
+                <LoginButtonComponent />
             </div>
         </div>
 
@@ -86,6 +86,80 @@ function CoverPage(){
 
 
             </div>
+
+
+            {/* <div className="con">
+
+            <div className="con1">
+
+            <div className="text">
+
+                <div className="text a">
+                Suggest Improvement
+                </div>
+
+                <div className="text b">
+                </div>
+
+                <div className="text c">
+                </div>
+
+            </div>
+            </div>
+
+            <div className="con1">
+
+                <div className="text">
+
+                    <div className="text a">
+                    Community Forum
+                    </div>
+
+                    <div className="text b">
+                    </div>
+
+                    <div className="text c">
+                    </div>
+
+                </div>
+            </div>
+
+
+            </div> */}
+
+        </div>
+
+        <div className="commfor">
+            <h2 className="title">Community Forum</h2>
+
+            <div className="card">
+                <div className="cardHeader">
+                    <div className="subject">
+                    Join the Conversation
+                    </div>
+                </div>
+
+                <h2>
+                Connect with your neighbors, discuss local issues, and share ideas for improving your community.
+                </h2>
+
+                <div className="discus">
+                <h3>Latest Discussions</h3>
+                    <div className="item">
+                        
+                    <div className="list">
+                        <li>New bike lanes on Main Street</li>
+                        <li>Community garden proposal</li>
+                        <li>Upcoming town hall meeting</li>
+                    </div>
+
+                    </div>
+                    
+
+                </div>
+                <button>Enter Forum</button>
+            </div>
+
         </div>
 
         <footer className="footer">
