@@ -23,7 +23,7 @@ function CoverPage(){
           
             <div className="right">
                 
-           < Link to="/aboutus" style={{ color: "white", textDecoration: "none" }}><h3>About Us</h3></Link>
+           < Link to="/aboutus" style={{ color: "white", textDecoration: "none" }}><h3>About</h3></Link>
                 
                 <h3>Contact</h3>
                 <LoginButtonComponent />
@@ -35,9 +35,11 @@ function CoverPage(){
             <h3>Voice your opinion and concerns to make your city a better place for everyone</h3>
 
             <div className="buttons">
+                < Link to="/learnmore" style={{ textDecoration: "none" }}>
                 <div className="buttons left">
                     Learn More
-                </div>
+                </div></Link>
+
                 <div className="buttons right">
                     Report!
                 </div>

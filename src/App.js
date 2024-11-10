@@ -4,6 +4,7 @@ import CoverPage from './CoverPage/CoverPage';
 import AuthProvider from './login/authprovider';
 import Profile from "./Profile/Profile";
 import AboutUs from "./AboutUs/AboutUs";
+import LearnMore from "./LearnMore/LearnMore";
 import { BrowserRouter as Router, Routes, Route }from 'react-router-dom';
 
 
@@ -40,6 +41,8 @@ function App() {
           <Route path="/profile" element={<Profile />}  />
 
           <Route path="/aboutus" element={<AboutUs />}  />
+          <Route path="/learnmore" element={<LearnMore />}  />
+
           
           {/* Optional: Handle 404/Not Found */}
           <Route path="*" element={<div>404 Not Found</div>} />
