@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import CoverPage from './CoverPage/CoverPage';
-import LoginButtonComponent from './login/LoginButtonComponent';
 import AuthProvider from './login/authprovider';
+import Profile from "./Profile/Profile";
+import { BrowserRouter as Router, Routes, Route }from 'react-router-dom';
+
 
 
 
 
 function App() {
   return (
-
-    <AuthProvider>
+    <Router>
+      <AuthProvider>
     <div className="App">
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -27,9 +29,21 @@ function App() {
         </a>
       </header> */}
       {/* Other components can access the user state via useAuth */}
-      <CoverPage/>
+      {/* <CoverPage/> */}
+
+      <Routes>
+         {/* Route for the root path */}
+          <Route path="/" element={<CoverPage />} />
+          
+          {/* Route for the profile page */}
+          <Route path="/profile" element={<Profile />}  />
+          
+          {/* Optional: Handle 404/Not Found */}
+          <Route path="*" element={<div>404 Not Found</div>} />
+      </Routes>
     </div>
     </AuthProvider>
+    </Router>
 
   );
 }

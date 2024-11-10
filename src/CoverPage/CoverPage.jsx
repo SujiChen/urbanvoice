@@ -10,7 +10,7 @@ import { AuthContext } from '../login/authprovider';
 
 
 function CoverPage(){
-    const { currentUser } = useContext(AuthContext);
+    const { user } = useContext(AuthContext);
     return(
    <div className="coverpage">
         <div className="header">
@@ -22,8 +22,8 @@ function CoverPage(){
           
             <div className="right">
                 <h3>about</h3>
-                <LoginButtonComponent />
                 <h3>contact</h3>
+                <LoginButtonComponent />
             </div>
         </div>
 
