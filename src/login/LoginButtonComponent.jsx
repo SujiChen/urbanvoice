@@ -62,7 +62,7 @@ const LoginButtonComponent = () => {
           )}
             </div>
         ):(
-            <h3 onClick={handleGoogleLogin}>login</h3>
+            <h3 onClick={handleGoogleLogin}>Login</h3>
         ) 
         
         }

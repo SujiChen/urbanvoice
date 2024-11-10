@@ -7,7 +7,7 @@ import { auth, provider } from '../login/firebase.js';
 import { onAuthStateChanged } from 'firebase/auth';
 import { AuthContext } from '../login/authprovider'; 
 import { MegaphoneIcon, ClipboardListIcon, UsersIcon } from 'lucide-react';
-
+import { Link} from 'react-router-dom';
 
 
 function CoverPage(){
@@ -22,8 +22,10 @@ function CoverPage(){
             </div>
           
             <div className="right">
-                <h3>about</h3>
-                <h3>contact</h3>
+                
+           < Link to="/aboutus" style={{ color: "white", textDecoration: "none" }}><h3>About Us</h3></Link>
+                
+                <h3>Contact</h3>
                 <LoginButtonComponent />
             </div>
         </div>
