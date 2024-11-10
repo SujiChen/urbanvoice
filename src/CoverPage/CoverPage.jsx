@@ -88,10 +88,24 @@ function CoverPage(){
                     </div>
                     <button>Enter Forum</button>
                 </div>
-            </div><footer className="footer">
-                <p>&copy; 2024 UrbanVoice. All rights reserved.</p>
-            </footer></div>
-    );
+
+                < Link to="/communityforum" style={{ textDecoration: "none" }}>
+                <button>Enter Forum</button>
+                </Link>
+
+                {/* <button>Enter Forum</button> */}
+            </div>
+
+        </div>
+
+        <footer className="footer">
+        <p>&copy; 2024 UrbanVoice. All rights reserved.</p>
+      </footer>
+
+   </div>
+
+    )
+
 }
 
 export default CoverPage;

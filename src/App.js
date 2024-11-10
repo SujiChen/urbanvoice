@@ -5,6 +5,7 @@ import AuthProvider from "./login/authprovider";
 import Profile from "./Profile/Profile";
 import AboutUs from "./AboutUs/AboutUs";
 import LearnMore from "./LearnMore/LearnMore";
+import CommunityForum from "./CommunityForum/CommunityForum";
 import { BrowserRouter as Router, Routes, Route }from 'react-router-dom';
 import { Link} from 'react-router-dom';
 import Form from "./form/report-form";
@@ -44,7 +45,11 @@ function App() {
 
           <Route path="/aboutus" element={<AboutUs />}  />
           <Route path="/learnmore" element={<LearnMore />}  />
+
+          <Route path="/communityforum" element={<CommunityForum />}  />
+
           <Route path="form/report-form" element={<Form />}  />
+
 
           
           {/* Optional: Handle 404/Not Found */}

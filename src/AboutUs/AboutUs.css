@@ -112,11 +112,14 @@
         }
 
         button{
+            font-family: 'Abhaya Libre ExtraBold', serif;
+            font-size: 14px;
             background-color: rgba(0, 0, 0, 0.907);
             color: #f8fafc;
             height: 50px;
             width: 150px;
             border-radius: 8px;
+            cursor: pointer;
         }
 
         padding-bottom: 20px;
