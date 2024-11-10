@@ -9,11 +9,11 @@
     
 
     .header{
-        color: white;
+        color: var(--darkblue);
         display: flex;
         flex-direction: row;
         align-items: center;
-        background-color: black;
+        background-color: white;
         justify-content: space-between;
         padding-right: 30px;
         /* width: 100%; */
@@ -24,6 +24,8 @@
             display: flex;
             flex-direction: row;
             align-items: center;
+            color: var(--darkblue);
+
 
             img{
                 height: 50px;
@@ -38,6 +40,7 @@
             flex-direction: row;
             
             gap: 30px;
+            color: var(--darkblue);
         
             h3{
                 cursor: pointer;
