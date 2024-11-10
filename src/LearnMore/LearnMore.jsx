@@ -20,10 +20,10 @@ function LearnMore(){
                 <div className="right">
                     
                     
-                < Link to="/" style={{ color: "white", textDecoration: "none" }}><h3>Home</h3></Link>
-                < Link to="/aboutus" style={{ color: "white", textDecoration: "none" }}><h3>About</h3></Link>
+                < Link to="/" style={{ color: "var(--darkblue)", textDecoration: "none" }}><h3>Home</h3></Link>
+                < Link to="/aboutus" style={{ color: "var(--darkblue)", textDecoration: "none" }}><h3>About</h3></Link>
 
-                < Link to="/contact" style={{ color: "white", textDecoration: "none" }}><h3>Contact</h3></Link>
+                < Link to="/contact" style={{ color: "var(--darkblue)", textDecoration: "none" }}><h3>Contact</h3></Link>
     
                 </div>
 
