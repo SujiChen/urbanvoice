@@ -1,0 +1,26 @@
+/* Dropdown styling */
+.dropdown-menu {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 150px;
+  }
+  
+  .dropdown-menu button {
+    width: 100%;
+    padding: 8px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu button:hover {
+    background-color: #f0f0f0;
+  }
+  
