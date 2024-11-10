@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { collection, addDoc } from "firebase/firestore"; 
+import { db } from '../login/firebase.js'; // Import Firestore instance
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import FormControl from "@mui/material/FormControl";
@@ -34,19 +36,22 @@ export default function Form() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/submit-form", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+        // Save form data to Firestore
+        const docRef = await addDoc(collection(db, "reports"), formData);
+        alert("Form submitted successfully! Document ID: " + docRef.id);
+      // const response = await fetch("http://localhost:5000/submit-form", {
+      //   method: "POST",
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //   },
+      //   body: JSON.stringify(formData),
+      // });
 
-      if (response.ok) {
-        alert("Form submitted successfully!");
-      } else {
-        alert("Failed to submit the form.");
-      }
+      // if (response.ok) {
+      //   alert("Form submitted successfully!");
+      // } else {
+      //   alert("Failed to submit the form.");
+      // }
     } catch (error) {
       console.error("Error submitting the form:", error);
       alert("An error occurred while submitting the form.");
