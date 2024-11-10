@@ -50,6 +50,7 @@ The minimum viable product has a basic look of the website, focusing mainly on t
 
 # Tech Stack 
 
+
 <img src="https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python&logoSize=auto" alt="python">
 <img src="https://img.shields.io/badge/javascript-purple?style=for-the-badge&logo=javascript&logoSize=auto" alt="javascript">
 <img src="https://img.shields.io/badge/HTML-blue?style=for-the-badge&logo=html5&logoSize=auto" alt="html"> 
