@@ -1,0 +1,135 @@
+.about-page {
+    width: 100%;
+    height:100vh;
+    max-height:100%;
+    font-family: 'Abhaya Libre ExtraBold', serif;
+    display: flex;
+    flex-direction: column;
+    background-color:#305bc021; 
+    
+
+    .header{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: black;
+        justify-content: space-between;
+        padding-right: 30px;
+        /* width: 100%; */
+
+     
+
+        .left{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            img{
+                height: 50px;
+                padding-right: 10px;
+            }
+            padding-left: 30px;
+
+        }
+
+        .right{
+            display: flex;
+            flex-direction: row;
+            
+            gap: 30px;
+        
+            h3{
+                cursor: pointer;
+                gap: 20px;
+            }
+
+            h3:hover {
+                color: #38bdf8;
+              }
+        }
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #052538;
+            margin-top: 15px;
+            /* margin-bottom: 2rem; */
+        }
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            /* align-items: flex-start; */
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                /* align-items: flex-start; */
+            }
+
+            h2{
+                color: #0C4A6E;
+                font-size: 30px;
+                margin: 0px;
+
+
+            }
+
+            h4{
+                display: flex;
+                flex-direction: column;
+                font-weight: 100;
+                font-size: 17px;
+                margin-top: 10px;
+                margin-bottom: 30px;
+                margin-left: 40px;
+                margin-right: 40px;
+                /* align-items: flex-start; */
+            }
+
+            .steps{
+                display: flex;
+                flex-direction: column;
+                flex-direction: column;
+                align-items: flex-start;
+                padding-left: 500px;
+                margin-top: 10px;
+                margin-bottom: 30px;
+                /* align-items: flex-start; */
+            }
+
+
+        }
+
+        button{
+            background-color: rgba(0, 0, 0, 0.907);
+            color: #f8fafc;
+            height: 50px;
+            width: 150px;
+            border-radius: 8px;
+        }
+
+        padding-bottom: 20px;
+
+    }
+    
+    
+    .footer {
+        background-color: #0c4a6e;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: auto;
+    }
+    
+  
+    
+}
+  
