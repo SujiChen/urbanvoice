@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import CoverPage from './CoverPage/CoverPage';
-import AuthProvider from './login/authprovider';
+import react from 'react'
+import "./App.css";
+import CoverPage from "./CoverPage/CoverPage";
+import AuthProvider from "./login/authprovider";
 import Profile from "./Profile/Profile";
 import AboutUs from "./AboutUs/AboutUs";
 import LearnMore from "./LearnMore/LearnMore";
@@ -15,8 +15,8 @@ function App() {
   return (
     <Router>
       <AuthProvider>
-    <div className="App">
-      {/* <header className="App-header">
+        <div className="App">
+          {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -49,8 +49,8 @@ function App() {
       </Routes>
     </div>
     </AuthProvider>
-    </Router>
 
+    </Router>
   );
 }
 
