@@ -11,12 +11,43 @@ import { MegaphoneIcon, ClipboardListIcon, UsersIcon } from 'lucide-react';
 import { Link} from 'react-router-dom';
 
 
+
+function CoverPage(){
+    const { user } = useContext(AuthContext);
+    return(
+   <div className="coverpage">
+        <div className="header">
+
+            <div className="left">
+                <img src={logo} alt="" />
+                <h1>  UrbanVoice </h1>
+            </div>
+          
+            <div className="right">
+                
+           < Link to="/aboutus" style={{ color: "white", textDecoration: "none" }}><h3>About</h3></Link>
+                
+                <h3>Contact</h3>
+                <LoginButtonComponent />
+            </div>
         </div>
 
-        <div className="right">
-          <h3>about</h3>
-          <h3>contact</h3>
-          <LoginButtonComponent />
+        <div className="heroSection">
+            <h2>Make Your City Better </h2>
+            <h3>Voice your opinion and concerns to make your city a better place for everyone</h3>
+
+            <div className="buttons">
+                < Link to="/learnmore" style={{ textDecoration: "none" }}>
+                <div className="buttons left">
+                    Learn More
+                </div></Link>
+
+                <div className="buttons right">
+                    Report!
+                </div>
+            </div>
+
+
         </div>
       </div>
 

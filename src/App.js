@@ -3,6 +3,12 @@ import "./App.css";
 import CoverPage from "./CoverPage/CoverPage";
 import AuthProvider from "./login/authprovider";
 import Profile from "./Profile/Profile";
+import AboutUs from "./AboutUs/AboutUs";
+import LearnMore from "./LearnMore/LearnMore";
+import { BrowserRouter as Router, Routes, Route }from 'react-router-dom';
+
+
+
 
 
 function App() {
@@ -24,7 +30,26 @@ function App() {
           Learn React
         </a>
       </header> */}
-<
+      {/* Other components can access the user state via useAuth */}
+      {/* <CoverPage/> */}
+
+      <Routes>
+         {/* Route for the root path */}
+          <Route path="/" element={<CoverPage />} />
+          
+          {/* Route for the profile page */}
+          <Route path="/profile" element={<Profile />}  />
+
+          <Route path="/aboutus" element={<AboutUs />}  />
+          <Route path="/learnmore" element={<LearnMore />}  />
+
+          
+          {/* Optional: Handle 404/Not Found */}
+          <Route path="*" element={<div>404 Not Found</div>} />
+      </Routes>
+    </div>
+    </AuthProvider>
+
     </Router>
   );
 }
