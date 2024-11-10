@@ -1,22 +1,16 @@
 import React, { useState, useEffect, useContext } from "react";
-import "./CoverPage.css";
-import "../App.css";
-import logo from "../img/logo.svg";
-import LoginButtonComponent from "../login/LoginButtonComponent.jsx";
-import { auth, provider } from "../login/firebase.js";
-import { onAuthStateChanged } from "firebase/auth";
-import { AuthContext } from "../login/authprovider";
-import { Link } from "react-router-dom";
-import { MegaphoneIcon, ClipboardListIcon, UsersIcon } from "lucide-react";
 
-function CoverPage() {
-  const { user } = useContext(AuthContext);
-  return (
-    <div className="coverpage">
-      <div className="header">
-        <div className="left">
-          <img src={logo} alt="" />
-          <h1> UrbanVoice </h1>
+import './CoverPage.css';
+import '../App.css';
+import logo from '../img/logo.svg';
+import LoginButtonComponent from '../login/LoginButtonComponent.jsx';
+import { auth, provider } from '../login/firebase.js';
+import { onAuthStateChanged } from 'firebase/auth';
+import { AuthContext } from '../login/authprovider'; 
+import { MegaphoneIcon, ClipboardListIcon, UsersIcon } from 'lucide-react';
+import { Link} from 'react-router-dom';
+
+
         </div>
 
         <div className="right">
