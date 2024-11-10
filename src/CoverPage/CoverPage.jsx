@@ -6,6 +6,7 @@ import LoginButtonComponent from '../login/LoginButtonComponent.jsx';
 import { auth, provider } from '../login/firebase.js';
 import { onAuthStateChanged } from 'firebase/auth';
 import { AuthContext } from '../login/authprovider'; 
+import { MegaphoneIcon, ClipboardListIcon, UsersIcon } from 'lucide-react';
 
 
 
@@ -51,6 +52,7 @@ function CoverPage(){
                 <div className="text">
 
                     <div className="text a">
+                    <MegaphoneIcon size={32} color= '#0369a1' strokeWidth={1.5} />
                     Report Issue
                     </div>
 
@@ -70,6 +72,8 @@ function CoverPage(){
                     <div className="text">
 
                         <div className="text a">
+                        <ClipboardListIcon size={32} color= '#0369a1' strokeWidth={1.5} />
+
                         Track Progress
                         </div>
 
@@ -134,7 +138,10 @@ function CoverPage(){
 
             <div className="card">
                 <div className="cardHeader">
+                <UsersIcon size={32} color= '#0369a1' strokeWidth={1.5} />
+
                     <div className="subject">
+
                     Join the Conversation
                     </div>
                 </div>
