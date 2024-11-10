@@ -11,7 +11,7 @@ import { MegaphoneIcon, ClipboardListIcon, UsersIcon } from 'lucide-react';
 
 
 function CoverPage(){
-    const { currentUser } = useContext(AuthContext);
+    const { user } = useContext(AuthContext);
     return(
    <div className="coverpage">
         <div className="header">

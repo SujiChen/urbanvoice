@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
 //import '../CoverPage/CoverPage.css' 
 import '../App.css';
+import './login.css';
 import logo from '../img/logo.svg';
 import { auth, provider } from '../login/firebase.js'; // Adjust the path as necessary
 import { signInWithPopup, onAuthStateChanged } from "firebase/auth";
 import { signOut } from "firebase/auth";
+import { Link} from 'react-router-dom';
 
 const LoginButtonComponent = () => {
   const [user, setUser] = useState(null);
+  const [dropdownVisible, setDropdownVisible] = useState(false); // For controlling dropdown visibility
   // Handle login with Google
   const handleGoogleLogin = async () => {
     try {
@@ -38,15 +41,25 @@ const LoginButtonComponent = () => {
     return () => unsubscribe();
   }, []);
 
+  const toggleDropdown = () => {
+    setDropdownVisible(!dropdownVisible);
+  };
+
   return (
     <div>
         {user ? (
             <div>
-            <img src={user.photoURL || logo} alt="Profile" style={{ borderRadius: "50%", width: "50px", height: "50px" }} />
-            {/* <img src={user.photoURL} alt="Profile" style={{ borderRadius: "50%", width: "50px", height: "50px" }} /> */}
-            {/* Add other profile details here if needed */}
-            {/* <h3>{user ? (user.displayName ? user.displayName : "No name available") : "No user logged in"}</h3> */}
-            <button onClick={handleLogout}>Logout</button>
+            <img src={user.photoURL || logo} alt="Profile" style={{ borderRadius: "50%", width: "50px", height: "50px", cursor: "pointer" }} onClick={toggleDropdown} // Toggle dropdown on click 
+            />
+            {/* Dropdown Menu */}
+            {dropdownVisible && (
+            <div className="dropdown-menu">
+            <Link to="/profile">
+              <button>Profile</button>
+              </Link>
+              <button onClick={handleLogout}>Logout</button>
+            </div>
+          )}
             </div>
         ):(
             <h3 onClick={handleGoogleLogin}>login</h3>
