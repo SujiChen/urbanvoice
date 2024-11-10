@@ -22,12 +22,14 @@ const Profile = () => {
             return (
                 <div className="body">
                     <h3>Personal Information</h3>
-                    {/* Add personal information details here */}
+                    <div className="bcontent">
+                        
+                    </div>
                 </div>
             );
         } else if (activeTab === "Activity") {
             return (
-                <div>
+                <div className="body">
                     <h3>Activity Log</h3>
                     {/* Add activity details here */}
                 </div>
