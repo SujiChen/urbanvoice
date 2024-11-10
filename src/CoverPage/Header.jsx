@@ -4,25 +4,25 @@ import { Link } from "react-router-dom";
 import logo from '../img/logo.svg';
 import LoginButtonComponent from '../login/LoginButtonComponent';
 import { AuthContext } from '../login/authprovider';
+import './Header.css';
 
 function Header() {
     const { user } = useContext(AuthContext);
     
     return (
         <div className="header">
+
             <div className="left">
-                <img src={logo} alt="UrbanVoice Logo" />
-                <Link to="/CoverPage" style={{ textDecoration: "none", color: "inherit" }}>
-                <h1>UrbanVoice</h1>
-            </Link>
+                <img src={logo} alt="" />
+                <h1>  UrbanVoice </h1>
             </div>
+
             <div className="right">
-                <Link to="/aboutus" style={{ color: "var(--darkblue)", textDecoration: "none" }}>
-                    <h3>About</h3>
-                </Link>
-                <Link to="/form/report-form" style={{ color: "var(--darkblue)", textDecoration: "none" }}>
-                    <h3>Report</h3>
-                </Link>
+                
+            < Link to="/" style={{ color: "var(--darkblue)", textDecoration: "none" }}><h3>Home</h3></Link>
+
+            < Link to="/aboutus" style={{ color: "var(--darkblue)", textDecoration: "none" }}><h3>About</h3></Link>
+                
                 <LoginButtonComponent />
             </div>
         </div>

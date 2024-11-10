@@ -10,11 +10,11 @@
     
     
     .header {
-        color: white;
+        color: var(--darkblue);
         display: flex;
         flex-direction: row;
         align-items: center;
-        background-color: black;
+        background-color: white;
         justify-content: space-between;
         padding-right: 30px;
         
@@ -35,6 +35,7 @@
         }
 
         .headerleft{
+            color: var(--darkblue);
             display: flex;
             flex-direction: row;
             align-items: center;

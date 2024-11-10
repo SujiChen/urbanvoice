@@ -1,0 +1,43 @@
+.header{
+    color: var(--darkblue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding-right: 30px;
+    /* width: 100%; */
+
+ 
+
+    .left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img{
+            height: 50px;
+            padding-right: 10px;
+        }
+        padding-left: 30px;
+
+    }
+
+    .right{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 18px;
+        
+        gap: 30px;
+    
+        h3{
+            cursor: pointer;
+            gap: 20px;
+        }
+
+        h3:hover {
+            color: #38bdf8;
+          }
+    }
+}
