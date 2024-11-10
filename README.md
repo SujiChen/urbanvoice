@@ -1,5 +1,5 @@
 <div text-align:center;background-color:white;width:100%;">
-    <img src="http://localhost:3000/static/media/logo.15c86e3f9e304b2a1a92cc99a4cea43c.svg" alt="logo" width="100%" height="350" style="border-radius=50%;">
+    <img src="src/img/logo.svg" alt="logo" width="100%" height="350" style="border-radius=50%;">
  </div> 
 <p text-align: center;>
     
