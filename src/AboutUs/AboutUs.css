@@ -7,7 +7,6 @@
     flex-direction: column;
     background-color:#305bc021; 
     
-
     .header{
         color: var(--darkblue);
         display: flex;
@@ -16,9 +15,6 @@
         background-color: white;
         justify-content: space-between;
         padding-right: 30px;
-        /* width: 100%; */
-
-     
 
         .left{
             display: flex;
@@ -26,19 +22,17 @@
             align-items: center;
             color: var(--darkblue);
 
-
             img{
                 height: 50px;
                 padding-right: 10px;
             }
-            padding-left: 30px;
 
+            padding-left: 30px;
         }
 
         .right{
             display: flex;
-            flex-direction: row;
-            
+            flex-direction: row;   
             gap: 30px;
             color: var(--darkblue);
         
@@ -56,33 +50,27 @@
     .main{
         display: flex;
         flex-direction: column;
-        /* align-items: flex-start; */
 
         .title {
             font-size: 2.5rem;
             font-weight: bold;
             color: #052538;
             margin-top: 15px;
-            /* margin-bottom: 2rem; */
         }
 
         .content{
             display: flex;
             flex-direction: column;
-            /* align-items: flex-start; */
 
             .text{
                 display: flex;
                 flex-direction: column;
-                /* align-items: flex-start; */
             }
 
             h2{
                 color: #0C4A6E;
                 font-size: 30px;
                 margin: 0px;
-
-
             }
 
             h4{
@@ -94,7 +82,6 @@
                 margin-bottom: 30px;
                 margin-left: 40px;
                 margin-right: 40px;
-                /* align-items: flex-start; */
             }
 
             .steps{
@@ -105,10 +92,7 @@
                 padding-left: 500px;
                 margin-top: 10px;
                 margin-bottom: 30px;
-                /* align-items: flex-start; */
             }
-
-
         }
 
         button{
@@ -134,8 +118,5 @@
         padding: 8px;
         margin-top: auto;
     }
-    
-  
-    
 }
   

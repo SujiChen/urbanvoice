@@ -7,7 +7,6 @@
     flex-direction: column;
     background-color:#305bc021; 
     
-
     .header{
         color: var(--darkblue);
         display: flex;
@@ -16,10 +15,7 @@
         background-color: white;
         justify-content: space-between;
         padding-right: 30px;
-        /* width: 100%; */
-
      
-
         .left{
             display: flex;
             flex-direction: row;
@@ -29,14 +25,13 @@
                 height: 50px;
                 padding-right: 10px;
             }
-            padding-left: 30px;
 
+            padding-left: 30px;
         }
 
         .right{
             display: flex;
-            flex-direction: row;
-            
+            flex-direction: row;  
             gap: 30px;
         
             h3{
@@ -49,8 +44,6 @@
               }
         }
     }
-
-
 
     .main-content{
         display: flex;
@@ -81,7 +74,6 @@
         }
     }
 
-
     .footer {
         background-color: #0c4a6e;
         color: white;
@@ -89,7 +81,4 @@
         padding: 1rem;
         margin-top: auto;
     }
-
-
-
 }
