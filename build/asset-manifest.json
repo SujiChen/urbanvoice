@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/urbanvoice/static/css/main.123e7b9c.css",
+    "main.js": "/urbanvoice/static/js/main.ddfff025.js",
+    "static/media/logo.svg": "/urbanvoice/static/media/logo.8d14b3df0c927846442877ef52505afd.svg",
+    "static/media/Profile.svg": "/urbanvoice/static/media/Profile.b88f4156bf4b808ff5af0b35fd4c74a9.svg",
+    "index.html": "/urbanvoice/index.html",
+    "main.123e7b9c.css.map": "/urbanvoice/static/css/main.123e7b9c.css.map",
+    "main.ddfff025.js.map": "/urbanvoice/static/js/main.ddfff025.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.123e7b9c.css",
+    "static/js/main.ddfff025.js"
+  ]
+}
