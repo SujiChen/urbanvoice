@@ -46,7 +46,7 @@
 
 
 #  MVP
-The minimum viable product focused mainly on the looks of the website acting as a template for t and the little backend(plans to implement in it outside of the hackathon)
+The minimum viable product focused primarily on the looks of the website. It acts as a template, making it easier for when the whole website is built with a fully functional backend integration.
 
 # Tech Stack 
 
