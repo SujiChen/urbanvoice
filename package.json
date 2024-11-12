@@ -1,5 +1,14 @@
 {
   "homepage": "https://SujiChen.github.io/urbanvoice/",
+<<<<<<< Updated upstream
+=======
+  "coverpage": "https://SujiChen.github.io/urbanvoice/",
+  "aboutus": "https://SujiChen.github.io/urbanvoice/aboutus",
+  "profile": "https://SujiChen.github.io/urbanvoice/profile",
+  "learnmore": "https://SujiChen.github.io/urbanvoice/learnmore",
+  "communityforum": "https://SujiChen.github.io/urbanvoice/communityforum",
+  "form": "https://SujiChen.github.io/urbanvoice/form",
+>>>>>>> Stashed changes
   "name": "urbanvoice",
   "version": "0.1.0",
   "private": true,
