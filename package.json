@@ -1,14 +1,4 @@
 {
-  "homepage": "https://SujiChen.github.io/urbanvoice/",
-<<<<<<< Updated upstream
-=======
-  "coverpage": "https://SujiChen.github.io/urbanvoice/",
-  "aboutus": "https://SujiChen.github.io/urbanvoice/aboutus",
-  "profile": "https://SujiChen.github.io/urbanvoice/profile",
-  "learnmore": "https://SujiChen.github.io/urbanvoice/learnmore",
-  "communityforum": "https://SujiChen.github.io/urbanvoice/communityforum",
-  "form": "https://SujiChen.github.io/urbanvoice/form",
->>>>>>> Stashed changes
   "name": "urbanvoice",
   "version": "0.1.0",
   "private": true,
@@ -32,9 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": [
@@ -53,9 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
   }
 
   
