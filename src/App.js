@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react';
 import "./App.css";
 import CoverPage from "./CoverPage/CoverPage";
 import AuthProvider from "./login/authprovider";
