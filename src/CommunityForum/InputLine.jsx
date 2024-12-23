@@ -28,9 +28,10 @@ const OneLineInput = () => {
         fontFamily: "'Abhaya Libre', serif"
       };
     
-      const placeholderStyle = {
-        color: '#aaa' // Placeholder color
-      };
+      /*const placeholderStyle = {
+       // color: '#aaa' // Placeholder color
+      };*/
+      // const placeholderStyle = { color: 'gray' }; // Commented out as it is unused
     
       return (
         <div style={containerStyle}>

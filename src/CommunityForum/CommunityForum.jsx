@@ -3,8 +3,8 @@ import './CommunityForum.css';
 import '../App.css';
 import { Link} from 'react-router-dom';
 import logo from '../img/logo.svg';
-import { CheckCircleIcon } from 'lucide-react';
-// import { Input } from "../../src/components/ui/input";
+//import { CheckCircleIcon } from 'lucide-react';
+// import { CheckCircleIcon } from '@heroicons/react/solid'; // Commented out as it is unused
 import OneLineInput from './InputLine';
 
 function CommunityForum(){
