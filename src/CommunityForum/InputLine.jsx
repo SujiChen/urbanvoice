@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 const fontLink = document.createElement("link");
 fontLink.href = "https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap";
 fontLink.rel = "stylesheet";
@@ -28,9 +28,10 @@ const OneLineInput = () => {
         fontFamily: "'Abhaya Libre', serif"
       };
     
-      const placeholderStyle = {
-        color: '#aaa' // Placeholder color
-      };
+      /*const placeholderStyle = {
+       // color: '#aaa' // Placeholder color
+      };*/
+      // const placeholderStyle = { color: 'gray' }; // Commented out as it is unused
     
       return (
         <div style={containerStyle}>
